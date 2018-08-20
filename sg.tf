@@ -1,10 +1,10 @@
-########################
-#Virtus Security Groups#
-########################
+#################
+#Security Groups#
+#################
 
-###################
-#MIT Management SG#
-###################
+###############
+#Management SG#
+###############
 
 resource "aws_security_group" "mit-sg" {
   name        = "aws368-euw2-prod-mit-sg-test"
