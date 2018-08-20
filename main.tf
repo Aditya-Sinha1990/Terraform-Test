@@ -77,7 +77,7 @@ resource "aws_subnet" "my_subnet3" {
   availability_zone = "ap-southeast-2a"
 
   tags {
-    Name = "aws172-euw2-prod-priv-data-a-test"
+    Name = "aws162-euw2-prod-priv-data-a-test"
     role = "Private Data Subnet A"
   }
 }
@@ -88,7 +88,7 @@ resource "aws_subnet" "my_subnet4" {
   availability_zone = "ap-southeast-2b"
 
   tags {
-    Name = "aws162-euw2-prod-priv-data-a-test"
+    Name = "aws162-euw2-prod-priv-data-b-test"
     role = "Private Data Subnet B"
   }
 }
