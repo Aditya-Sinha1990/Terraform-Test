@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "aws162-euw2-elb-logs" {
   }
 }
 
-resource "aws_s3_bucket_policy" "aws172-euw2-elb-logs-policy" {
+resource "aws_s3_bucket_policy" "aws162-euw2-elb-logs-policy" {
   bucket = "${aws_s3_bucket.aws162-euw2-elb-logs.id}"
 
   policy = <<POLICY
