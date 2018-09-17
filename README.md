@@ -37,10 +37,10 @@ This `code` was built through help of [Terraform Pages](https://www.terraform.io
 > **Basically Terraform StateFiles are placed in Dyanmo Databasw of AWS (anyformat of docs saved)format and stored in S3 Bucket
 
 
-1. Terraform Init
-   - Terraform Validate
-   - Terraform Plan
-2. Terraform Apply
-3. Terraform Destroy
+1. ```Terraform Init```
+   - ```Terraform Validate```
+   - ```Terraform Plan```
+2. ```Terraform Apply```
+3. ```Terraform Destroy```
 
          
