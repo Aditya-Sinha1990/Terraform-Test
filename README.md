@@ -25,7 +25,9 @@ This `code` was built through help of [Terraform Pages](https://www.terraform.io
 [Terraform-Docs](https://github.com/segmentio/terraform-docs/releases)
    - *Commands To Generate Docs*
    - ```
-     terraform-docs md ../path/to/.tf_files
+     terraform-docs md ../../path/to/.tf_files
+     terraform-docs md ./my-module ../variables.tf
+     terraform-docs -h, --help
      ```
    
 
@@ -40,8 +42,8 @@ This `code` was built through help of [Terraform Pages](https://www.terraform.io
 
 
 1. ```Terraform Init```
-   - ```Terraform Validate
-     - Terraform Plan```
+   - ```Terraform Validate```
+     - ```Terraform Plan```
 2. ```Terraform Apply```
 3. ```Terraform Destroy```
 
