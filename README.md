@@ -38,10 +38,10 @@ This `code` was built through help of [Terraform Pages](https://www.terraform.io
 
 > **Initialize Backend in Terraform main Script and give details of Dynamo DB like - Table name and S3 bucket Name**
 
-> **Basically Terraform State-Files are placed in Dynamo Database of AWS (anyformat of docs saved)format and stored in S3 Bucket
+> **Basically Terraform State-Files are placed in Dynamo Database of AWS (anyformat of docs saved)format and stored in S3 Bucket**
 
 
-1. ```Terraform *Init*```
+1. ```Terraform _Init_```
    - ```Terraform *Validate*```
      - ```Terraform *Plan*```
 2. ```Terraform *Apply*```
