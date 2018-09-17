@@ -31,13 +31,9 @@ This `code` was built through help of [Terraform Pages](https://www.terraform.io
 
 ## Prequisites
 > **Need AWS Account with correct _IAM User_ Account to Run IaaC**
-
-> **Create S3 Bucket to store state files of terraform**
-
+      > **Create S3 Bucket to store state files of terraform**
 > **Create Dyanmo DB Table and write \*LOCKID\* as a _Partion Key_ while creating Table**
-
 > **Initialize Backend in Terraform main Script and give details of Dynamo DB like - Table name and S3 bucket Name**
-
 > **Basically Terraform State-Files are placed in Dynamo Database of AWS (anyformat of docs saved)format and stored in S3 Bucket**
 
 
